@@ -10,7 +10,7 @@ def reliable_send(data):
     s.send(jsondata.encode())
 
 def reliable_recv():
-    """Receive data reliably by decoding JSON."""
+    """Receive data reliably by decoding JSON"""
     data = ''
     while True:
         try:
